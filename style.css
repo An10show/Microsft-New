@@ -107,6 +107,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 0 5%;
 
 
     .wrapper-cards {
@@ -116,33 +117,167 @@ header {
         width: 100%;
         max-width: 1500px;
 
-.card{
+        .card {
 
-flex-grow: 1;
-box-shadow: 0 1875rem 4375rem 0 rgba(00, 00,00, 13), 0 0625rem 125rem 0 rgba(00, 00,00, 11);
+            flex-grow: 1;
+            box-shadow: 0 1875rem 4375rem 0 rgba(00, 00, 00, .13), 0 0625rem 125rem 0 rgba(00, 00, 00, .11);
 
-.card-body{
+            .card-body {
 
-     display: flex;
-     flex-direction: column;
-     justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
 
-     .card-text{
-        margin-top: 10px;
-     }
+                .card-text {
+                    margin-top: 10px;
+                }
 
-           }
+            }
 
-       }
+        }
 
     }
 
 }
 
 
-.btn .btn-primary{
+.btn .btn-primary {
     border-radius: 0;
     border: none;
     background-color: #0067b8;
+
+}
+
+.Baners {
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+
+
+    img {
+
+        width: 100%;
+        max-width: 1500px;
+
+    }
+
+
+    .card {
+        position: absolute;
+        left: 13%;
+        border-radius: 0;
+        border: none;
+        padding: 30px;
+
+
+        h3 {
+            font-size: 1.8rem;
+            margin-bottom: 16px;
+        }
+    }
+
+}
+
+.tirtle-business {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+
+
+    div {
+        width: 100%;
+        max-width: 1500px;
+
+        h2 {
+            font-size: 2.4rem;
+            font-weight: 600;
+        }
+
+    }
+}
+
+.Social-media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 5%;
+
+
+    div {
+        width: 100%;
+        max-width: 1500px;
+
+        ul {
+            display: flex;
+            align-items: center;
+            margin: 60px 0;
+            padding: 0;
+            gap: 20px;
+
+            li {
+                cursor: pointer;
+            }
+
+            p {
+                margin: 0;
+                font-size: 1.2rem;
+
+            }
+
+            img {
+                width: 34px;
+            }
+
+        }
+
+    }
+
+}
+
+.btn-start {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    position: sticky;
+    bottom: 20px;
+
+    a {
+        cursor: pointer;
+        padding: 0.6rem 0.75rem;
+        background: rgba(0, 0, 0, .15);
+        color: black;
+        text-decoration: none;
+
+    }
+
+}
+
+.Footer{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+
+    ul{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+    }
+
+ul .bold{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+   }
+
+   li{
+    color: #616161;
+
+   }
 
 }
